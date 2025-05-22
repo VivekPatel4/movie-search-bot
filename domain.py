@@ -30,7 +30,7 @@ def get_final_url_selenium(url, retries=3, wait_time=10):
             options.add_argument("--disable-popup-blocking")  # Allow new tabs
             options.add_argument("--disable-blink-features=AutomationControlled")  # Avoid bot detection
 
-            service = Service('/usr/bin/chromedriver')
+            service = Service(ChromeDriverManager().install())
             driver = webdriver.Chrome(service=service, options=options)
             driver.get(url)
             time.sleep(3)  # Wait for initial redirects
