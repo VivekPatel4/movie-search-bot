@@ -33,7 +33,7 @@ const SITES = {
   "hdhub4u": {
     "base_url": "https://hdhub4u.tv/",
     "categories": {
-      "main": "https://hdhub4u.frl/"
+      "main": "https://hdhub4u.tv/"
     },
     "working_domains": {
       "main": ""
