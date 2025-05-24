@@ -1,5 +1,8 @@
 const fs = require('fs').promises;
 const winston = require('winston');
+const { pushToGitHub } = require('./gitPush');
+
+await pushToGitHub();
 
 // Set up logging
 const logger = winston.createLogger({
