@@ -1,0 +1,24 @@
+{
+  "name": "movie-search-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for searching movies and web series",
+  "main": "combined.js",
+  "scripts": {
+    "start": "node combined.js",
+    "server": "node main.js",
+    "bot": "node bot.js",
+    "scheduler": "node scheduler.js",
+    "update": "node cronJob.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "playwright": "^1.52.0",
+    "puppeteer": "^22.4.0",
+    "winston": "^3.11.0"
+  }
+}
