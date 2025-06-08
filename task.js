@@ -22,21 +22,21 @@ const SITES = {
   "katworld": {
     "base_url": "https://katworld.net/",
     "categories": {
-      "hollywood": "https://katmoviehd.blue/",
-      "kdrama": "https://katdrama.com/"
+      "hollywood": "hollyowood-movies/web-series",
+      "kdrama": "kdrama-series/web-series"
     },
     "working_domains": {
       "hollywood": "https://katmoviehd.blue/",
-      "kdrama": ""
+      "kdrama": "https://katdrama.com/"
     }
   },
   "hdhub4u": {
     "base_url": "https://hdhub4u.tv/",
     "categories": {
-      "main": "https://hdhub4u.gl/"
+      "main": "movies/webseries"
     },
     "working_domains": {
-      "main": "https://hdhub4u.gl/"
+      "main": "https://hdhub4u.gratis/"
     }
   },
   "moviesflix": {
